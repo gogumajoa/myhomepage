@@ -1,0 +1,57 @@
+html{
+    background-repeat: no-repeat;
+    background-size: 960px;
+    /* 나중에 960px로 바꾸기 */
+    background-position: 50% 50%;
+}
+
+
+.img{
+    width: 80px;
+    height: 80px;
+    position: static;
+    /* filter: opacity(0.5) drop-shadow(0 0 0 black); */
+}
+
+.ghost-button{
+    display: inline-block;
+    position:relative;
+    padding: 10px 20px;
+    margin: 50px 20px;
+    border: 1px solid black;
+    color:black;
+    text-align:center;
+    text-decoration:none;
+}
+
+.ghost-button:hover{
+    background-color:black;
+    color:white;
+}
+
+
+.center{
+    position: absolute; 
+    text-align: center; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    left: 50%;
+ 
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+.big{
+    float: left;
+}
+
+.hh {
+    width: 150px;
+    height: 150px;
+}
+
+
+
